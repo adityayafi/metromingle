@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Service = () => {
 
   const services = [
@@ -46,11 +48,11 @@ const Service = () => {
         <div className="mx-[60px] flex flex-col justify-center">
           <div className="pt-16 pb-10 justify-center flex">
             <div className="flex justify-between items-center">
-              <img src="/Line 3.svg" alt="" className="p-2"/>
-              <img src="/ion_cut-outline.svg" alt="" />
+              <Image src="/Line 3.svg" height={19} width={166} alt="" className="p-2"/>
+              <Image src="/ion_cut-outline.svg" height={32} width={32} alt="" />
               <p className="text-4xl font-semibold px-4">Our Services</p>
-              <img src="/ion_cut-outline.svg" alt="" className="rotate-180"/>
-              <img src="/Line 3.svg" alt="" className="p-2"/>
+              <Image src="/ion_cut-outline.svg" height={32} width={32} alt="" className="rotate-180"/>
+              <Image src="/Line 3.svg" height={19} width={166} alt="" className="p-2"/>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-x-[92px] gap-y-[39px]">

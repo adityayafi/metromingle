@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Team = () => {
 
   const team = [
@@ -32,11 +34,11 @@ const Team = () => {
       <div className="bg-team-image bg-cover">
         <div className="pb-10 justify-center flex">
           <div className="flex justify-between items-center">
-            <img src="/Line white.svg" alt="" className="p-2"/>
-            <img src="/ion_cut-outline-white.svg" alt="" />
+            <Image src="/Line white.svg" height={19} width={166} alt="" className="p-2"/>
+            <Image src="/ion_cut-outline-white.svg" height={32} width={32} alt="" />
             <p className="text-4xl font-semibold px-4">Meet Our Team</p>
-            <img src="/ion_cut-outline-white.svg" alt="" className="rotate-180"/>
-            <img src="/Line white.svg" alt="" className="p-2"/>
+            <Image src="/ion_cut-outline-white.svg" height={32} width={32} alt="" className="rotate-180"/>
+            <Image src="/Line white.svg" height={19} width={166} alt="" className="p-2"/>
           </div>
         </div>
         <div className="flex justify-center pb-[36px]">
@@ -59,7 +61,7 @@ const Team = () => {
                           <p>{data.age}</p>
                         </div>
                         <div className="flex items-center h-6">
-                          <img src="/solar_star-bold.svg" alt="" className="pr-0.5"/>
+                          <Image src="/solar_star-bold.svg" alt="" width={12} height={12} className="pr-0.5"/>
                           <p>{data.rating}</p>                        
                         </div>
                       </div>

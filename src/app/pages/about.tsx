@@ -1,13 +1,15 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <section id="About Us" className="bg-white py-16 px-16">
         <div className="pb-10 justify-center flex">
           <div className="flex justify-between items-center">
-            <img src="/Line 3.svg" alt="" className="p-2"/>
-            <img src="/ion_cut-outline.svg" alt="" />
+            <Image src="/Line 3.svg" height={19} width={166} alt="" className="p-2"/>
+            <Image src="/ion_cut-outline.svg" height={32} width={32} alt="" />
             <p className="text-4xl font-semibold px-4">About Us</p>
-            <img src="/ion_cut-outline.svg" alt="" className="rotate-180"/>
-            <img src="/Line 3.svg" alt="" className="p-2"/>
+            <Image src="/ion_cut-outline.svg" height={32} width={32} alt="" className="rotate-180"/>
+            <Image src="/Line 3.svg" height={19} width={166} alt="" className="p-2"/>
           </div>
         </div>
         <div className="flex justify-between">

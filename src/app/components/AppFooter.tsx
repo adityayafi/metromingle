@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const AppFooter = () => {
   return (
     <div className="bg-secondary py-[49px] ">
@@ -7,9 +9,9 @@ const AppFooter = () => {
             <div>
               <p className="font-semibold">Social Media</p>
               <div className="flex justify-between">
-                <img src="/skill-icons_instagram.svg" alt="" />
-                <img src="/logos_tiktok-icon.svg" alt="" />
-                <img src="/logos_youtube-icon.svg" alt="" />
+                <Image src="/skill-icons_instagram.svg" width={16} height={17} alt="" />
+                <Image src="/logos_tiktok-icon.svg" width={15} height={17} alt="" />
+                <Image src="/logos_youtube-icon.svg" width={23} height={17} alt="" />
               </div>
             </div>
             <div>
@@ -20,11 +22,11 @@ const AppFooter = () => {
             <div>
               <p className="font-semibold">Have Question?</p>
               <div className="flex">
-                <img src="/mdi_location.svg" alt="" className="pr-2"/>
+                <Image src="/mdi_location.svg" width={24} height={24} alt="" className="pr-2"/>
                 <p>Jl. Prof Eyckman No. 19 - 21, Bandung, Jawa Barat</p>
               </div>
               <div className="flex">
-                <img src="/ic_baseline-email.svg" alt="" className="pr-2"/>
+                <Image src="/ic_baseline-email.svg" width={24} height={24} alt="" className="pr-2"/>
                 <p>metro@gmail.com</p>
               </div>
             </div>
