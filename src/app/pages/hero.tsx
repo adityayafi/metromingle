@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="w-screen bg-hero-image bg-cover h-[450px]">
         <div className="bg-black/60 absolute bg-fixed mt-20 h-[370px] w-full">
           <div className="flex flex-col justify-center items-center px-4 pt-8">
-            <p className="text-secondary font-semibold text-[32px]">" Refine Your Style, Refresh Your Look "</p>
+            <p className="text-secondary font-semibold text-[32px]">{"Refine Your Style, Refresh Your Look"}</p>
             <div className="text-white text-xl justify-center items-center flex flex-col pt-6">
               <p>Reserve Your Spot for the Perfect Cut:</p>
               <p>Book Now and Experience Barbering Excellece!</p>
