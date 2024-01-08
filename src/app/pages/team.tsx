@@ -52,7 +52,7 @@ const Team = () => {
           <div className="flex justify-center">
             {
               team.map((data,i) => (
-                <div className="w-[200px] h-[270px] bg-white flex flex-col justify-center items-center rounded-2xl mx-6" key={i}>
+                <div className="w-[200px] h-[270px] bg-white flex flex-col justify-center items-center rounded-2xl mx-6 hover:scale-125 hover:transition hover:ease-in-out hover:duration-1000" key={i}>
                   <div className={`${data.img} ` + `bg-cover w-[180px] h-[250px] rounded-xl`}>
                     <div className="bg-gradient-to-t bg-cover from-secondary to-transparent w-[180px] h-[120px] mt-[130px] rounded-xl">
                       <div className="flex justify-between items-end text-white bottom-1 px-2 pt-[72px]">

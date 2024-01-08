@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import CountUp from "react-countup";
 
 const Service = () => {
 
@@ -28,19 +30,20 @@ const Service = () => {
     <section id="Services" className="pb-16">
       <div className="h-[650px] bg-white">
         <div className="flex justify-center">
-          <div className="w-[702px] h-[117px] bg-white rounded shadow-lg mt-[-58px] z-10 relative flex justify-between items-center">
+          <div className="w-[710px] h-[117px] bg-white rounded shadow-lg mt-[-58px] z-10 relative flex justify-between items-center">
             <div className="w-auto h-auto justify-center items-center flex flex-col px-12">
-              <p className="text-secondary text-[36px]">20</p>
+              {/* <CountUp end={20} duration={3}/> */}
+              <p className="text-secondary text-[36px]"><CountUp end={20} duration={5}/></p>
               <p className="text-tertiary text-[16px]">Profesional Hair Artist</p>
             </div>
             <div className="h-[69px] left-[263px] w-0.5 bg-tertiary absolute"></div>            
             <div className="w-auto h-auto justify-center items-center flex flex-col px-12">
-              <p className="text-secondary text-[36px]">4000</p>
+              <p className="text-secondary text-[36px]"><CountUp end={4000} duration={5}/></p>
               <p className="text-tertiary text-[16px]">Order</p>
             </div>
             <div className="h-[69px] right-[244px] w-0.5 bg-tertiary absolute"></div>
             <div className="w-auto h-auto justify-center items-center flex flex-col px-12">
-              <p className="text-secondary text-[36px]">1500</p>
+              <p className="text-secondary text-[36px]"><CountUp end={1500} duration={5}/></p>
               <p className="text-tertiary text-[16px]">Membership Active</p>
             </div>
           </div>
